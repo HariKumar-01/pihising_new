@@ -1,0 +1,98 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+*{
+    margin: 0;
+    padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("../images/back.jpg");
+    background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px 10px 120px;
+}
+.menu{
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin:10px 20px;
+}
+.menu a:hover{
+    color: crimson;
+}
+.content{
+    margin: 13%;
+    position: relative;
+}
+.redtext{
+    color: crimson;
+}
+.leftpart{
+    float: left;
+    width: 50%;
+}
+.rightpart{
+    float: right;
+    width:50%;
+}
+.leftpart h1{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.leftpart form input{
+    padding: 10px 20px;
+    border:2px solid crimson;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 300px;
+    background: none;
+    color: white;
+}
+.leftpart form input::placeholder{
+    color: white;
+}
+.leftpart form button{
+    margin-top:20px;
+    padding: 10px 20px;
+    border:2px solid crimson;
+    color:white;
+    background: none;
+    border-radius: 10px;
+}
+.leftpart form button:hover{
+    background-color: crimson;
+}
+.details h1{
+    color: white;
+    margin-bottom:20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.detbtn{
+    margin:10px 0px;
+}
+.detbtn h2{
+    color: crimson;
+    margin-bottom: 5px;
+}
+.detbtn p{
+    color: white;
+}
